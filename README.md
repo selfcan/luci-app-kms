@@ -3,8 +3,8 @@
 这是一个整合了 vlmcsd 和 luci-app-vlmcsd 的标准 OpenWrt feed 仓库。
 
 ## 包含的包
-- `vlmcsd`: KMS 服务端 (来自 gaoderby/openwrt-vlmcsd)
-- `luci-app-vlmcsd`: KMS 的 LuCI 界面 (来自 gaoderby/luci-app-vlmcsd)
+- `vlmcsd`: KMS 服务端 (来自 OneNAS-space/openwrt-vlmcsd)
+- `luci-app-vlmcsd`: KMS 的 LuCI 界面 (来自 OneNAS-space/luci-app-vlmcsd)
 
 ## 使用方法
 
