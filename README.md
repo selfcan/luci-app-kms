@@ -11,7 +11,7 @@
 ### 方式1：直接添加到 feeds.conf.default（推荐）
 在 OpenWrt 的 `feeds.conf.default` 中添加：
 ```
-src-git kms https://github.com/你的用户名/luci-app-kms.git
+src-git kms https://github.com/gaoderby/luci-app-kms.git
 ```
 
 然后运行：
@@ -24,7 +24,7 @@ src-git kms https://github.com/你的用户名/luci-app-kms.git
 ```
 mkdir custom-feeds
 cd custom-feeds
-git clone https://github.com/你的用户名/luci-app-kms.git
+git clone https://github.com/gaoderby/luci-app-kms.git
 # 然后在 feeds.conf.default 中添加：
 src-link kms /path/to/custom-feeds/luci-app-kms
 ```
